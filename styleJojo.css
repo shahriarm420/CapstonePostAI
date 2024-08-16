@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color:rgb(61, 83, 91);
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  padding: 5px;
+  border-color: white;
+}
+
+body {
+  background-color: rgb(156, 196, 209)
+}
+
+.sectionone {
+  background-color: rgb(153, 204, 183);
+  padding: 20px;
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.actualPortfolioStuff {
+  background-color: rgb(84, 221, 164);
+  padding: 20px;
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#image {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  align-self: end;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}

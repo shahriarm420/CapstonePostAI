@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+  background-color: antiquewhite;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.NavBar {
+  font-family: Helvetica;
+  color: white;
+  font-size: 32px;
+  padding: 5px;
+}
+
+nav {
+  background-color: #272D33;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+/* Dark Mode Button Text Color */
+.dark-mode .NavBar,
+.dark-mode nav a {
+  color: white;
+}
+
+.dark-mode nav {
+  background-color: #333;
+}
+
+.dark-mode nav a:hover {
+  background-color: #555;
+}
+
+.items:hover {
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.sec-one {
+  display: flex;
+
+}
+
+.sec-one img {
+  width: 300px;
+  height: auto;
+}
+
+.aboutme {
+  margin: 10px;
+}
+
+.portSecOne {
+  background-color: #8CC48E;
+  padding: 20px;
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+}
+
+.portSecOne ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectList {
+  background-color: #8CC48E;
+  padding: 20px;
+  border: 2px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectList ul {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h3 {
+  text-align: center;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: gray;
+  opacity: 0.7;
+}
+
+.items:hover {
+  background-color: gray;
+  opacity: 0.5;
+}
